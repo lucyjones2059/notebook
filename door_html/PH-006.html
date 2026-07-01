@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sigurno</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+  <h1 id="title">PH-006</h1>
+  <div class="top_banner">
+    <div class="dimensions">
+      <div class="logo">
+        <img src="photo/visina.png" alt="">
+      </div>
+      <div>
+        <p class="size">2000mm</p>
+        <p class="size_label">Visina vrata</p>
+      </div>
+    </div>
+    <div class="dimensions">
+      <div class="logo">
+        <img src="photo/sirina.png" alt="">
+      </div>
+
+      <div>
+        <p class="size">620/720/820mm</p>
+        <p class="size_label">Širina vrata</p>
+      </div>
+
+    </div>
+    <div class="dimensions">
+      <div class="logo">
+        <img src="photo/stok.png" alt="">
+      </div>
+      <div>
+        <p class="size">40mm</p>
+        <p class="size_label">Debljina vrata</p>
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Karakteristika</th>
+        <th>Specifikacija</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="odd">Materijal</td>
+        <td class="odd">MDF 4mm</td>
+      </tr>
+      <tr>
+        <td>Ispuna</td>
+        <td>Kartonsko saće</td>
+      </tr>
+      <tr>
+        <td class="odd">Štok</td>
+        <td class="odd">MDF 40mm</td>
+      </tr>
+      <tr>
+        <td>Lajsna</td>
+        <td>Opšivne MDF širine 8cm</td>
+      </tr>
+      <tr>
+        <td class="odd">Brava</td>
+        <td class="odd">DAF brava za ključ/leptir</td>
+      </tr>
+      <tr>
+        <td>Šarka</td>
+        <td>3 brodske šarke</td>
+      </tr>
+      <tr>
+        <td class="odd">Završna obrada</td>
+        <td class="odd">Farbano poliuretanom</td>
+      </tr>
+      <tr>
+        <td>Boja</td>
+        <td>Braun</td>
+      </tr>
+      <tr>
+        <td class="odd">Open Direction</td>
+        <td class="odd">LEFT/RIGHT</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="price_section">Cena</p>
+  <hr>
+
+
+  <div class="lock">
+    <div>
+      <img class="lock_logo" src="photo/door.png" alt="Brave">
+    </div>
+    <p class="price">24000 RSD + PDV</p>
+  </div>
+
+
+  <p class="price_section">Brave</p>
+  <hr>
+
+  <div class="lock">
+    <div>
+      <img class="lock_logo" src="photo/lock.png" alt="Brave">
+    </div>
+
+    <div>
+      <p class="price">2350 RSD</p>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
+
+
+<style>
+  @page {
+    size: A4;
+    margin: 15mm 12mm;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 5.2mm;
+    padding: 0;
+    font-family: "Microsoft JhengHei", sans-serif;
+    background-color: #ffffff;
+  }
+
+  .top_banner {
+    display: flex;
+    align-items: center;
+  }
+
+  .dimensions {
+    display: flex;
+    align-items: center;
+    margin-right: 10mm;
+    margin-bottom: 10mm;
+  }
+
+
+  .odd {
+    background-color: #f2f0f0;
+  }
+
+  .price_section {
+    margin-top: 7mm;
+  }
+
+  .price {
+    font-size: 12mm;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  #title {
+    font-size: 20mm;
+  }
+
+  .logo {
+    margin-right: 2.6mm
+  }
+
+  .lock_logo {
+    margin-right: 2.6mm;
+    height: 20mm;
+    width: 20mm;
+  }
+
+  .size {
+    font-size: 6mm;
+    margin: 0;
+  }
+
+  .size_label {
+    font-size: 4mm;
+  }
+
+  .lock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 0.26mm solid #ddd;
+    padding: 2.1mm;
+    text-align: left;
+  }
+
+  th {
+    background-color: #cfcccc;
+  }
+
+  hr {
+    background-color: #c4c3c2;
+    margin-bottom: 1mm;
+    height: 0.45mm;
+    border: none;
+  }
+</style>
