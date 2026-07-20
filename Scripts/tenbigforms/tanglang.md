@@ -50,7 +50,7 @@ Continuous Filing, Striking, and Lifting
 Protect-Ear Circling Punch
 17. 右封左崩捶(50),
 Right Seal, Left Smashing Punch
-18. 左勾右挫插(51),
+18. 左勾右挫插(51), 
 Left Hook, Right Filing Thrust
 19. 左封右提折(52-53),
 Left Seal, Right Lifting Break
